@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/shop.css">
+    <script src="js/shop.js"></script>
+    <title>Dog Walker</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="quemsomos.html">Quem Somos</a></li>
+                <li><a href="pets.html">Pets</a></li>
+                <li><a href="shop.html">Pet Shops</a></li>
+                <li><a href="prof.html">Profissionais</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="cad.html">Cadastro</a></li>
+            </ul>
+            <div class="mobile-menu-icon" onclick="toggleMenu()">&#9776;</div>
+        </nav>
+    </header>
+    <div class="header">
+        <img src="imagens/dw-redonda-p-250.png" alt="Dog Walker" class="dw">
+        <h1 class="title">Pet Shops</h1>
+      </div>
+      <h2>Aqui você encontrará no mapa todos os Pet Shops perto de sua casa!</h2>
+        <h3>Mapa</h3>
+        <p>Coloque a sua localização e encontre os Pet Shops próximos à sua casa.</p>
+        <div id="map"></div>
+        <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_DA_API_AQUI&callback=initMap">
+</script>
+</body>
+</html>

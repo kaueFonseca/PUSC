@@ -1,0 +1,68 @@
+@charset "utf-8";
+/*Estilo do Site*/
+body {
+    background-color: rgb(107, 107, 231);
+  }
+  p{
+    font-size: 20px;
+  }
+  
+  /*Estilo título e logo*/
+  .header {
+    text-align: center;
+  }
+  
+  .dw {
+    margin-right: 1300px; /* Adicione uma margem direita se necessário */
+  }
+  
+  .title {
+    margin-right: 1300px; /* Remover margem padrão do título */
+    margin-top: -40px;
+  }
+  
+  
+  /*Estilo Do Menu*/
+  body ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilizando o cabeçalho e a navegação */
+  header {
+    background-color: rgb(107, 107, 231);
+    color: #fff;
+    text-align: left;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: none;
+    text-align: left;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  /* Efeito de cor ao passar o mouse sobre os links */
+  nav a:hover {
+    color: #ff5733; /* Cor que desejar */
+  }
+  nav ul.active {
+    display: block;
+  }
+
+  /*Estilo do mapa*/
+  #map {
+    height: 400px;
+    width: 100%;
+  }
